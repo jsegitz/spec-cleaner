@@ -1,4 +1,6 @@
 
+# DO NOT USE THIS. THIS IS A MALICIOUS DEMO!
+
 # spec-cleaner
 
 ![Build Status](https://github.com/rpm-software-management/spec-cleaner/workflows/Python%20package/badge.svg?branch=master)
